@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  height: 90px;
+  justify-content: right;
+}
+
+.header_content {
+  width: 95%;
+  height: 60%;
+  padding-top: 15px;
+  font-size: 140%;
+  text-align: center;
+  font-family: "Overpass Mono";
+  border: 5px solid black;
+}
+
+.cf {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cf a {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cf a.top:hover {
+  opacity: 0;
+}
+
+.bottom {
+  background-color: rgb(143, 143, 143);
+}
+
+.top {
+  background-color: rgb(211, 206, 206);
+}
