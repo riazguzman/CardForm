@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="creditcard1.PNG" width="500" title="hover text">
+  <img src="creditcard1.PNG" width="1000" title="hover text">
 </p>
